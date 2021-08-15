@@ -40,7 +40,7 @@ async def main(message, vetor):
 
     transport, protocol = await loop.create_connection(
         lambda: EchoClientProtocol(message, on_con_lost, vetor),
-        '169.254.153.67', 8888)
+        '0.0.0.0', 8888)
 
     # Wait until the protocol signals that the connection
     # is lost and close the transport.
