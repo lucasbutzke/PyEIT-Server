@@ -1,6 +1,6 @@
-# FEMM-Python
+# Async Server for PyEIT
 
-algoritm to simulate electrical impedance measurements on a circular shape with multiple electrodes, multifrequencial and possible do define moving objects for image recontruction errors tests. 
+Configuration for a server to receive data from network to make EIT image reconstruction
 
 ## TODO
 
