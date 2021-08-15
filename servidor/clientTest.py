@@ -12,10 +12,7 @@ HEADER = 64
 
 PORT = 8888
 # SERVER = '10.0.0.180'
-# SERVER = '192.168.0.10'
-# SERVER = '169.254.143.8'
-SERVER = '169.254.153.67'
-# SERVER = 'localhost'
+SERVER = 'localhost'
 ADDR = (SERVER, PORT)
 # print(SERVER)
 FORMAT = 'utf-8'
